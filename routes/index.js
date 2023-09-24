@@ -1,8 +1,9 @@
-const routes = require('express').Router();
-
-routes.get('/', (req,res,next) => {
-    res.json('Becky Skouson')
-})
+const express = require('express');
 
 
-module.exports = routes;
+const router = express.Router();
+
+// GET /feed/posts
+router.use('/contacts', require('./contacts'));
+// localhost:8080/professional/
+module.exports = router;

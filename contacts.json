@@ -1,0 +1,25 @@
+{
+    "contact":{
+        "firstName" : "Josh",
+        "lastName": "Skouson",
+        "email": "sko1998@test.com",
+        "favoriteColor": "Green",
+        "birthday": "12/16/1998"
+    },
+
+    "contact2":{
+        "firstName" : "Greg",
+        "lastName": "Olson",
+        "email": "GOlson@test.com",
+        "favoriteColor": "Blue",
+        "birthday": "9/1/1975"
+    },
+
+    "contact3":{
+        "firstName" : "Eli",
+        "lastName": "Aiono",
+        "email": "lulualii@test.com",
+        "favoriteColor": "Brown",
+        "birthday": "6/21/1999"
+    }
+}
