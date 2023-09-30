@@ -6,3 +6,29 @@ GET http://localhost:8080/contacts/650f9eb2bbdce8e38b1c6e80
 
 ###
 GET https://cse341-dl0j.onrender.com HTTP/1.1
+
+### Create Contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName" : "gary",
+    "lastName" : "Squires",
+    "email" : "squires@mail.com",
+    "favoriteColor" : "black",
+    "birthday" : "03/02/1999"
+}
+
+### PUT contact 
+PUT http://localhost:8080/contacts/650f9eb2bbdce8e38b1c6e80 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Josh",
+"lastName":"Skouson",
+"email":"test@gmail.com", 
+"favoriteColor":"Green",
+"birthday":"12/16/98"
+} 
+### DELETE contact 
+DELETE http://localhost:8080/contacts/651895cc35a9016589fe796c HTTP/1.1
